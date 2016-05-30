@@ -25,3 +25,8 @@ ip neigh show dev eth1
 
 Deleting the arp entry:
 sudo ip neigh del 1.1.1.1 dev eth1
+
+Reference:
+http://don-memory.blogspot.tw/2012/11/static-arp-using-ioctl.html
+http://www3.amherst.edu/~jwmanly/resnet97/getarp.c
+http://lazyflai.blogspot.tw/2010/03/linuxioctlarp-table.html
