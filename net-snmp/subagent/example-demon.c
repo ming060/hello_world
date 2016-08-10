@@ -4,6 +4,7 @@
 #include <signal.h>
 
 #include <nstAgentSubagentObject.h>
+#include "ifTable/ifTable.h"
 
 static int keep_running;
 
@@ -44,6 +45,8 @@ main (int argc, char **argv) {
 
   /* mib code: init_nstAgentSubagentObject from nstAgentSubagentObject.C */
   init_nstAgentSubagentObject();  
+
+    init_ifTable();
 
   /* initialize vacm/usm access control  */
   if (!agentx_subagent) {
