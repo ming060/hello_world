@@ -1,6 +1,5 @@
 rocommunity  public
 rwcommunity  private
-master  agentx
 
 trapsink 127.0.0.1 public
 #trap2sink 127.0.0.1 public
